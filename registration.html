@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Robotics club | Registration</title>
+    <link rel="stylesheet" href="css/style_registration.css">
+</head>
+<body>
+<h1>Register Form</h1>
+<div class="simple_form">
+    <form method="post" class="registration">
+        <br> <label>Name: </label><br>
+         <input type="text" name="Name" class="input" placeholder="Name" required><br>
+         <br> <label>Department:</label><br>
+         <select name="department" class="input" required><br>
+        <option>Select</option>
+        <option value="CSE">CSE</option>
+        <option value="BBA">BBA</option>
+        <option value="BTHM">BTHM</option>
+    </select> <br><br> <label>Semester:</label><br>
+         <input type="text" name="Semester_no" class="input" placeholder="Semester" required><br>
+        <br> <label>ID: </label><br> <input type="number" name="ID_no" class="input" placeholder="Your ID number" required><br>
+        <br> <label>Gender:</label><br> <input type="radio" class="input" name="gender" value="Male"><label class="sex">Male</label>
+        <input type="radio" name="gender" class="input" value="Female"><label class="sex">Female</label>
+        <input type="radio" name="gender" class="input" value="Other"><label class="sex">Other</label><br>
+         
+        <br> <label>Email: </label><br> <input type="email" name="email address" class="input" placeholder="DIIT provided e-mail" required><br>
+        <br> <label>Phone: </label><br>  <input type="number" name="phone number" class="input" placeholder="+880"><br><br>
+    </form>
+    <div class="button">
+        <ul>
+            <li><a href="#">Submit Request</a></li>
+            <li><a href="home.html">I'm a member of Robotics club</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

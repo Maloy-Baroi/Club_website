@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic";
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0.1,0.5)), url("../background_photo.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: #d1ffb1;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white;
+    transition: 0.5s ease;
+}
+ul li a:hover{
+    background-color: Yellow;
+    color: #ff0018;
+}
+#homepage{
+    background-color: yellow;
+    color: red;
+}
+.logo img{
+    float: left;
+    width: 50px;
+    height: auto;
+}
+main{
+    max-width: 1199px;
+    max-height: 5000px;
+    margin: auto;
+}
+p{
+    top: 30%;
+    color: #fff6fe;
+}
+.button{
+    font-family: "Algerian";
+    display: inline-block;
+    text-decoration-color: #fff6fe;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
